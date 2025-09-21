@@ -63,6 +63,9 @@ form {
   box-shadow: 0px, 20px, 60px, rgba(59, 29, 32, 0.08);
 }
 
+.quote strong {
+  color: rgb(194, 78, 78);
+}
 footer {
   text-align: center;
   font-size: 13px;
