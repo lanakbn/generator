@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typewriter-effect@2.18.1/dist/core.js"></script>
+
     <title>marketing quote generator</title>
   </head>
 
@@ -13,7 +16,7 @@
         <h1>AI marketing quote generator</h1>
       </header>
       <main>
-        <form>
+        <form id="quote-generator">
           <input
             type="text"
             placeholder="Enter a topic"
@@ -24,7 +27,7 @@
           />
           <input type="submit" class="submit-button" value="Submit" />
         </form>
-        <div class="quote">The marketing quote here</div>
+        <div class="quote" id="marketQuote"></div>
       </main>
       <footer>
         This AI project was built by
