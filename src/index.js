@@ -19,7 +19,7 @@ function generateQuote(event) {
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
   let quoteEl = document.querySelector("#marketQuote");
   quoteEl.classList.remove("hidden");
-  quoteEl.innerHTML = ` <span class= "generating"> Generating a quote </span>`;
+  quoteEl.innerHTML = ` <span class= "generating"> ⏳Generating a quote </span>`;
 
   console.log("Generating quote...");
 
